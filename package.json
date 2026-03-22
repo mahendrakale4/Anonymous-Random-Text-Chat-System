@@ -1,0 +1,15 @@
+{
+  "name": "omegle-clone-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.7.5",
+    "cors": "^2.8.5",
+    "uuid": "^10.0.0"
+  }
+}
